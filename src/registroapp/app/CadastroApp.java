@@ -11,7 +11,7 @@ public class CadastroApp {
 	public static void main(String[] args) {
 		LeitorRemessa leitor = new LeitorRemessa();
 		
-		List<Registro> registros = leitor.converter("C:\\Users\\samsung\\Documents\\curso-java-mjv\\ficha.txt");
+		List<Registro> registros = leitor.converter("caminhoArquivo");
 	
 		/*for(Registro r: registros ) {
 			System.out.println(r);
