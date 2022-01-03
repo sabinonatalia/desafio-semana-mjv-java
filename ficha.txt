@@ -1,1 +1,1 @@
-Desenvolvedora Jr;Natália Sabino;Mulher Cisgênero;2500;3000;20021996;12345678988;123453348;Rua das Flores;200;Flor;Santo André;SP;0121-456;Santo André-SP;Brasil;(11)4582-8282;(11)92356-7895;na.ssilva@outlook.com
+Desenvolvedora Jr;Natália Sabino;Mulher Cisgênero;2500;3000;20021996;12345678988;123453348;Rua das Flores;200;Flor;Santo André;SP;0121-456;Santo André-SP;Brasil;(11)4582-8282;(11)92356-7895;na.ssilva@outlook.com;Superior

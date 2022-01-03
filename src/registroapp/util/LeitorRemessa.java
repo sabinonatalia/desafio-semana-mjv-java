@@ -53,6 +53,7 @@ public class LeitorRemessa {
 			String date = campos[5];
 			LocalDate data = LocalDate.parse(date, formatter);
 			r.setDataNascimento(data);
+			r.setGrauInstrucao(campos[19]);
 
 			registro.add(r);
 		}

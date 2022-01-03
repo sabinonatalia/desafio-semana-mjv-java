@@ -24,13 +24,11 @@ public class RegistroPrint {
 		ficha.append("\nTelefone: " + registro.getTelefone() + " Celular: " + registro.getCelular());
 		ficha.append("\nEmail: " + registro.getEmail());
 		
-		ficha.append("\n----------------------------------------------------------------------------------\n");
+		ficha.append("\n--------------------------------------------------------------------------------\n");
 		
 		ficha.append("Grau de Instrução: \n");
+		ficha.append(registro.getGrauInstrucao());
 		
-		ficha.append("Analfabeto			Ensino Fundamental		Superior\n");
-		ficha.append("Lê e Escreve			Ensino Médio Incompleto		Mestrado\n");
-        ficha.append("Fundamental Incompleto		Ensino Médio Completo		Doutorado\n");
 		
         System.out.println(ficha);
 	}

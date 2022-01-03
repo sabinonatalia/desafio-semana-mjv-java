@@ -25,7 +25,8 @@ public class Registro {
 	private String telefone;
 	private String celular;
 	private String email;
-
+	private String grauInstrucao;
+	
 	List<Registro> registro = new ArrayList<Registro>();
 		
 	public List<Registro> getRegistro() {
@@ -189,6 +190,14 @@ public class Registro {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
+	public String getGrauInstrucao() {
+		return grauInstrucao;
+	}
+
+	public void setGrauInstrucao(String grauInstrucao) {
+		this.grauInstrucao = grauInstrucao;
+	}
 
 	@Override
 	public String toString() {
@@ -197,7 +206,7 @@ public class Registro {
 				+ cpf + ", rg=" + rg + ", endereco=" + endereco + ", numeroResidencia=" + numeroResidencia + ", bairro="
 				+ bairro + ", municipio=" + municipio + ", uf=" + uf + ", cep=" + cep + ", naturalidade=" + naturalidade
 				+ ", pais=" + pais + ", telefone=" + telefone + ", celular=" + celular + ", email=" + email
-				+ ", registro=" + registro + "]";
+				+ ", grauInstrucao=" + grauInstrucao + ", registro=" + registro + "]";
 	}
 	
 	
